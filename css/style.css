@@ -51,4 +51,9 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
+    background-color: #45567d;
+}
+#contact-section{
+        background-color: #303841;
+
 }
