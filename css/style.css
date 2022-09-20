@@ -48,10 +48,25 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
     width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+    padding: 40px 20px !important;
+    justify-content: center;
     /* margin-bottom: 6rem; */
     background-color: #45567d;
+    align-content: center;
+}
+.col { display: flex; justify-content: center; align-items: center;}
+.showallcontainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45567d;
+    padding-bottom: 40px;
+}
+.card-img-top{
+    width: 385px;
+    height: 379px!important;
 }
 #contact-section{
         background-color: #303841;
