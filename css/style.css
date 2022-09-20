@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: #be3144;
+    padding: 0 5rem;
+    height: auto;
+}
+.nav-link{
+    margin-right: 0;
+    width: 100%;
+    text-align: right;
+    height: auto;
+}
+.nav-link a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-align: right;
+    color: white;
+    /* background-color: yellow; */
+    padding: 13px 10px;
+    
+    
+}
+.nav-link a:hover{
+    background: rgb(2, 2, 65);
+}
+.welcome{
+    width: 100%;
+    height: 100vh;
+    background-color: #252628;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+}
+.welcome h1{
+    font-size: 5rem;
+}
+.welcome p{
+    color: #be3144;
+    font-size: 2rem;
+    font-style: italic;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
